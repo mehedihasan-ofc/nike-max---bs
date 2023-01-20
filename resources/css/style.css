@@ -1,0 +1,127 @@
+/* =============================================================
+    => GOOGLE FONT
+==============================================================*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;500;600;700&display=swap');
+
+/* COMMON CSS */
+
+* {
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    background: #f1f1f1;
+}
+
+div {
+    display: block;
+}
+
+h1 {
+    font-size: 80px;
+    color: #363958;
+    padding: 0px;
+    margin: 0px;
+}
+
+h2 {
+    font-size: 48px;
+    color: #363958;
+}
+
+h4 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #363958;
+}
+
+h5 {
+    font-size: 20px;
+    font-weight: 700;
+    color: #363958;
+}
+
+/* HEADER */
+#header {
+    height: 100vh;
+    padding: 85px 0 70px 0;
+    background: #f4f5ff;
+}
+
+#header span {
+    font-weight: 700;
+}
+
+.custom-navbar {
+    background: #fff;
+}
+
+.custom-ul {
+    text-align: center;
+    background: #fff;
+}
+
+.shadow {
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.08) !important;
+}
+
+.custom-li {
+    font-weight: 700;
+    padding: 0 25px;
+}
+
+.custom-logo {
+    width: 30%;
+}
+
+.custom-highlight {
+    color: #dc3545;
+}
+
+.custom-btn {
+    background: #3d4ff3;
+    padding: 10px;
+    border: none;
+    outline: none;
+}
+
+.custom-card {
+    border-radius: 20px;
+    padding: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    border: none;
+}
+
+.custom-img-width {
+    width: 80px;
+}
+
+.custom-services-card {
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+    border: none;
+}
+
+.custom-footer {
+    background: transparent;
+    bottom: none;
+}
+
+.custom-bg {
+    height: 350px;
+    background: #f1f1f1;
+    border-radius: 12px;
+}
+
+/* Footer */
+#footer {
+    padding: 25px 0;
+}
+
+footer h5 {
+    padding: 10px 0;
+}
+
+#footer li a {
+    text-decoration: none;
+}
